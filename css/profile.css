@@ -1,32 +1,65 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
 body{
-background-color: black;
+background-color: #2d313c;
 color: white;
 }
-
+.header .initiative-label{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 34px;
+}
+.header-remain span{
+  color: #666666 !important;
+}
+.header{
+  height: 30vh;
+  text-align: center;
+}
 img{
-	width: 100px;
+    width: 200px;
+    height: 150px;
     border: 2px solid whitesmoke;
+    padding: 2px 2px;
+    border-radius: 15px;
 }
 
 h5, h6, p {
 	color: white;
-	font-family: Montserrat-Regular;
-	
+  font-family: Montserrat-Regular;
 }
- h2 {
-	color: white !important;
+ .container h2 {
+	color: dodgerblue;
 	font-family: Montserrat-Regular;
-    font-size: 14px;
-    line-height: 1.7;
-    margin: 0px;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0px;
 	
 }
 
 .column {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   float: left;
-  width: 33.3%;
+  width: 25%;
   margin-bottom: 16px;
   padding: 0 8px;
+}
+
+.card{
+  width: 75%;
+  height: 270px;
+  padding: 12px;
+}
+.card:hover{
+  padding: 13px;
+  background-color:rgb(0,0,128, 0.2);
+  /* rgb( 28, 250, 120, 0.7); */
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -37,9 +70,16 @@ h5, h6, p {
   }
 }
 
+.contributor-img{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ 
 }
 
 /* Some left and right padding inside the container */
