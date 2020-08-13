@@ -55,10 +55,11 @@ h5, h6, p {
   width: 75%;
   height: 270px;
   padding: 12px;
+  background-color:rgb(0,0,128, 0.2);
 }
 .card:hover{
   padding: 13px;
-  background-color:rgb(0,0,128, 0.2);
+  background: white;
   /* rgb( 28, 250, 120, 0.7); */
 }
 
