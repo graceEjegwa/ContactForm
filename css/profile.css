@@ -1,33 +1,37 @@
-body{
-background-color: black;
-color: white;
+body {
+  background-color: black;
+  color: white;
 }
 
-img{
-	width: 100px;
-    border: 2px solid whitesmoke;
+img {
+  width: 100px;
+  border: 2px solid whitesmoke;
 }
 
-h5, h6, p {
-	color: white;
-	font-family: Montserrat-Regular;
-	
+h5,
+h6,
+p {
+  color: white;
+  font-family: Montserrat-Regular;
+
 }
- h2 {
-	color: black !important;
-	font-family: Montserrat-Regular;
-    font-size: 14px;
-    line-height: 1.7;
-    margin: 0px;
-	
+
+h2 {
+  color: black !important;
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0px;
+
 }
+
 h1 {
   color: white !important;
   font-family: Montserrat-Regular;
-    font-size: 14px;
-    line-height: 1.7;
-    margin: 0px;
-  
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0px;
+
 }
 
 
@@ -57,7 +61,8 @@ h1 {
 }
 
 /* Clear floats */
-.container::after, .row::after {
+.container::after,
+.row::after {
   content: "";
   clear: both;
   display: table;
@@ -66,4 +71,3 @@ h1 {
 .title {
   color: grey;
 }
-
