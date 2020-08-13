@@ -4,22 +4,28 @@ color: white;
 }
 
 img{
-	width: 100px;
-    border: 2px solid whitesmoke;
+  width: 100px;
+    border: 6px solid black;
+    border-radius: 50%;
+    height: 150px;
 }
 
 h5, h6, p {
-	color: white;
-	font-family: Montserrat-Regular;
-	
+  color: white;
+  font-family: Montserrat-Regular;
+  
 }
+.container h5, h6, p {
+text-align: center;
+}
+
  h2 {
-	color: black !important;
-	font-family: Montserrat-Regular;
+  color: black !important;
+  font-family: Montserrat-Regular;
     font-size: 14px;
     line-height: 1.7;
     margin: 0px;
-	
+  
 }
 h1 {
   color: white !important;
@@ -49,6 +55,7 @@ h1 {
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  flex-direction: row-reverse;
 }
 
 /* Some left and right padding inside the container */
@@ -65,5 +72,14 @@ h1 {
 
 .title {
   color: grey;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px; 
+     margin-left: 0px; 
 }
 
