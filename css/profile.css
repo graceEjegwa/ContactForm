@@ -5,8 +5,8 @@ color: white;
 
 img{
   width: 100px;
-    border: 6px solid black;
-    border-radius: 50%;
+/*    border: 6px solid black;
+   border-radius: 50%;*/ 
     height: 150px;
 }
 
@@ -16,7 +16,7 @@ h5, h6, p {
   
 }
 .container h5, h6, p {
-text-align: center;
+text-align: left;
 }
 
  h2 {
