@@ -31,6 +31,7 @@ h5, h6, p {
 	color: white;
   font-family: Montserrat-Regular;
 }
+
  .container h2 {
 	color: dodgerblue;
 	font-family: Montserrat-Regular;
@@ -39,6 +40,15 @@ h5, h6, p {
   margin: 0px;
 	
 }
+h1 {
+  color: white !important;
+  font-family: Montserrat-Regular;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0px;
+  
+}
+
 
 .column {
   display: flex;
