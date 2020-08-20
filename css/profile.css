@@ -11,8 +11,8 @@ body{
 }
 
 img{
-  width: 200px;
-  height: 200px;
+  width: 210px;
+  height: 210px;
   border: 2px solid whitesmoke;
 }
 
@@ -79,12 +79,39 @@ h1 {
   background: white;
   /* rgb( 28, 250, 120, 0.7); */
 }
+.o3,.o2{
+  display: none;
+}
 
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
+    padding-top: 23px;
+
+  }
+  .card{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body{
+    /* background-color: wheat !important; */
+    /* color: black; */
+
+  }
+  .initiative-label{
+    font-size: 24px !important;
+  }
+  .initiative-label .small{
+    display: hidden;
+  }
+  .o4, .o3{
+    display: none;
+  }
+  .o2{
+    display: contents;
   }
 }
 
