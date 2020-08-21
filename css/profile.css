@@ -1,11 +1,19 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
-background-color: black;
-color: white;
+  background-color: #2d313c;
+  color: white;
+
+
 }
 
 img{
-	width: 100px;
-    border: 2px solid whitesmoke;
+  width: 210px;
+  height: 210px;
+  border: 2px solid whitesmoke;
 }
 
 h5, h6, p {
@@ -14,7 +22,7 @@ h5, h6, p {
 	
 }
  h2 {
-	color: black !important;
+	/* color: rgb(156, 148, 148) !important; */
 	font-family: Montserrat-Regular;
     font-size: 14px;
     line-height: 1.7;
@@ -29,13 +37,50 @@ h1 {
     margin: 0px;
   
 }
-
+.header .initiative-label{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 34px;
+}
+.header-remain span{
+  color: #666666 !important;
+}
+.header{
+  height: 30vh;
+  text-align: center;
+}
+.container h2 {
+	color: dodgerblue;
+	font-family: Montserrat-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0px;
+}
 
 .column {
+  
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   float: left;
-  width: 33.3%;
+  width: 25%;
   margin-bottom: 16px;
   padding: 0 8px;
+}
+.card{
+  width: 75%;
+  height: 270px;
+  padding: 12px;
+  background-color:rgb(0,0,128, 0.2);
+}
+.card:hover{
+  padding: 13px;
+  background: white;
+  /* rgb( 28, 250, 120, 0.7); */
+}
+.o3,.o2{
+  display: none;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -43,16 +88,47 @@ h1 {
   .column {
     width: 100%;
     display: block;
+    padding-top: 23px;
+
+  }
+  .card{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body{
+    /* background-color: wheat !important; */
+    /* color: black; */
+
+  }
+  .initiative-label{
+    font-size: 24px !important;
+  }
+  .initiative-label .small{
+    display: hidden;
+  }
+  .o4, .o3{
+    display: none;
+  }
+  .o2{
+    display: contents;
   }
 }
 
 /* Add some shadows to create a card effect */
 .card {
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 250px;
+  height: 320px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Some left and right padding inside the container */
 .container {
+
   padding: 0 16px;
 }
 

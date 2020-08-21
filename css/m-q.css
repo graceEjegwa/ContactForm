@@ -1,0 +1,11 @@
+@media(max-width: 768px){
+  .card{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body{
+    background-color: red !important;
+
+  }
+}
